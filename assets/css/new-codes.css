@@ -76,3 +76,7 @@ bottom: 0;
 background-color: #fff;
 z-index: 999999;
 }
+
+.justify-content-end {
+justify-content: center !important;
+}
