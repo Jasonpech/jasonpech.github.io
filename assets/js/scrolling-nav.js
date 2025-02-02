@@ -65,7 +65,7 @@ document.querySelectorAll('.onepage-nev a.nav-link, .mobile-menu a').forEach(anc
     anchor.addEventListener('click', function (e) {
         e.preventDefault(); // Prevent default anchor behavior
         const target = this.getAttribute('href'); // Get the target ID
-        const duration = 1000; // Adjust the duration (in milliseconds) for scroll speed
+        const duration = 9000; // Adjust the duration (in milliseconds) for scroll speed
         smoothScroll(target, duration); // Call the smooth scroll function
     });
 });
